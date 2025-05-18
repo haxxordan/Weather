@@ -1,6 +1,6 @@
 # Weather Application
 
-This is a simple Go application that consumes the [api.weather.gov](https://api.weather.gov) API to fetch weather data based on a given location.
+This is a simple Go application that consumes the [open-meteo](https://api.open-meteo.com/) API to fetch weather data based on a given location.
 
 ## Setup Instructions
 
@@ -22,7 +22,7 @@ This is a simple Go application that consumes the [api.weather.gov](https://api.
 
 ## Usage
 
-Once the application is running, you can make requests to the defined endpoints to fetch weather data. Refer to the API documentation for specific usage examples.
+Pass your latitude and logitude and check the current weather conditions.
 
 ## Contributing
 
