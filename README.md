@@ -2,22 +2,6 @@
 
 This is a simple Go application that consumes the [api.weather.gov](https://api.weather.gov) API to fetch weather data based on a given location.
 
-## Project Structure
-
-```
-Weather
-├── cmd
-│   └── main.go          # Entry point of the application
-├── internal
-│   ├── api
-│   │   └── weather.go   # Functions to interact with the weather API
-│   └── models
-│       └── weather.go   # Data structures for weather information
-├── go.mod                # Module definition file
-├── go.sum                # Dependency checksums
-└── README.md             # Project documentation
-```
-
 ## Setup Instructions
 
 1. Clone the repository:
@@ -33,7 +17,7 @@ Weather
 
 3. Run the application:
    ```
-   go run cmd/main.go
+   go run cmd/main.go -lat=<latitude> -lon<longitude>
    ```
 
 ## Usage
