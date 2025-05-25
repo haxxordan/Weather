@@ -12,6 +12,8 @@ type WeatherResponse struct {
 		ApparentTemperature float64 `json:"apparent_temperature"`
 		Rain                float64 `json:"rain"`
 		WindSpeed           float64 `json:"wind_speed_10m"`
+		WeatherCode         int     `json:"weathercode"`
+		WeatherDescription  string  `json:"weather_description"`
 	} `json:"current"`
 
 	Daily struct {
